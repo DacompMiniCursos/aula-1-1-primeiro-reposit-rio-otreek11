@@ -41,7 +41,8 @@ So deixando salvo aqui os git diffs e o git log
 ### git log
 
 ```
-6ff2ee1 (HEAD -> main) Dia 6: mais um hello world no arquivo_legal.c
+194dec9 (HEAD -> main) Dia 7: ULTIMATE HELLO WORLD MACHINE
+6ff2ee1 Dia 6: mais um hello world no arquivo_legal.c
 58fc344 Dia 5: .env adicionada no gitignore
 78bbf2d Revert "Dia 4: adicionando SECRET_KEY no .env"
 6c982c9 Dia 4: adicionando SECRET_KEY no .env

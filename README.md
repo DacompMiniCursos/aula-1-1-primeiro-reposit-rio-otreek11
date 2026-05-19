@@ -3,7 +3,9 @@
 Estou realizando a atividade :)
 Este foi o primeiro dia !!
 
+## Dia 2
 
+Hoje eu coloquei o .gitignore !
 
 ## Historico
 
@@ -35,4 +37,21 @@ So deixando salvo aqui os git diffs e o git log
     +### git log
     +
     +### git diffs
+    ```
+
+- Dia 2:
+    ```
+    diff --git a/README.md b/README.md
+    index 8d41b6d..c4166ab 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -3,7 +3,9 @@
+    Estou realizando a atividade :)
+    Este foi o primeiro dia !!
+
+    +## Dia 2
+
+    +Hoje eu coloquei o .gitignore !
+
+    ## Historico
     ```

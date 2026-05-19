@@ -30,6 +30,10 @@ Eu realmente to sem ideia aqui
 
 `arquivo_legal.c` agora imprime hello world incríveis 3 vezes!
 
+## Dia 7
+
+`arquivo_legal.c` é agora a ULTIMATE HELLO WORLD MACHINE! Apenas insira a quantidade de hello worlds que ele imprime (bem original, eu sei)
+
 ## Historico
 
 So deixando salvo aqui os git diffs e o git log
@@ -37,7 +41,8 @@ So deixando salvo aqui os git diffs e o git log
 ### git log
 
 ```
-58fc344 (HEAD -> main) Dia 5: .env adicionada no gitignore
+6ff2ee1 (HEAD -> main) Dia 6: mais um hello world no arquivo_legal.c
+58fc344 Dia 5: .env adicionada no gitignore
 78bbf2d Revert "Dia 4: adicionando SECRET_KEY no .env"
 6c982c9 Dia 4: adicionando SECRET_KEY no .env
 ce4609d Dia 3: Hello World em C!
@@ -185,4 +190,45 @@ ae19052 (origin/feedback) GitHub Classroom Feedback
 
     int main() {
     +    printf("Hello World!\n");
+    ```
+
+- Dia 7:
+    ```
+    diff --git a/README.md b/README.md
+    index fac9a3f..b50c48e 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -30,6 +30,10 @@ Eu realmente to sem ideia aqui
+
+    `arquivo_legal.c` agora imprime hello world incríveis 3 vezes!
+
+    +## Dia 7
+    +
+    +`arquivo_legal.c` é agora a ULTIMATE HELLO WORLD MACHINE! Apenas insira a quantidade de hello worlds que ele imprime (bem original, eu sei)
+    +
+    ## Historico
+
+    So deixando salvo aqui os git diffs e o git log
+    diff --git a/arquivo_legal.c b/arquivo_legal.c
+    index 8490cbb..3e86223 100644
+    --- a/arquivo_legal.c
+    +++ b/arquivo_legal.c
+    @@ -1,8 +1,14 @@
+    #include <stdio.h>
+
+    int main() {
+    -    printf("Hello World!\n");
+    -    printf("Hello World!\n");
+    -    printf("Hello World!\n");
+    +    int n;
+    +    printf("========== ULTIMATE HELLO WORLD MACHINE ==============\n");
+    +    printf("Insert number of hello worlds: ");
+    +    scanf("%d", &n);
+    +
+    +    for (int i = 0; i < n; i++) {
+    +        printf("Hello World!\n");
+    +    }
+    +
+        return 0;
+    }
     ```

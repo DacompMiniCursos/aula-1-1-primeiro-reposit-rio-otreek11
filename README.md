@@ -14,6 +14,16 @@ Implementei um codigo INSANO que printa hello world
 Google aqui vou eu
 Btw agr que eu notei que eu to esquecendo os git log :p
 
+## Dia 4
+
+Aqui eu tinha adicionado uma .env e commitei "sem querer" no repositório para fins de arranjar motivos para usar o git revert (sim, eu esqueci as exatas palavras que eu tinha escrito)
+
+## Dia 5
+
+Certamente eu não commitei a .env sem querer no repositório para fins de arranjar motivos para usar o git revert
+
+Enfim, agora a env ta no gitignore !
+
 ## Historico
 
 So deixando salvo aqui os git diffs e o git log
@@ -21,7 +31,10 @@ So deixando salvo aqui os git diffs e o git log
 ### git log
 
 ```
-25eefac (HEAD -> main) Dia 2: adicionando gitignore
+78bbf2d (HEAD -> main) Revert "Dia 4: adicionando SECRET_KEY no .env"
+6c982c9 Dia 4: adicionando SECRET_KEY no .env
+ce4609d Dia 3: Hello World em C!
+25eefac Dia 2: adicionando gitignore
 4a1c7d1 Dia 1: Criando o repositorio
 fa18c32 (origin/main, origin/HEAD) add deadline
 aea88c9 Setting up GitHub Classroom Feedback
@@ -102,4 +115,37 @@ ae19052 (origin/feedback) GitHub Classroom Feedback
     +ae19052 (origin/feedback) GitHub Classroom Feedback
     +```
     +
+    ```
+- Dia 4:
+    (aconteceu um revert aqui)
+- Dia 5:
+    ```
+    diff --git a/.gitignore b/.gitignore
+    index f0574e1..de7ce92 100644
+    --- a/.gitignore
+    +++ b/.gitignore
+    @@ -1,2 +1,3 @@
+    arquivo-secreto-ultra-escondido-nao-abrir.txt
+    -bloodborne-2-(nao-e-virus).exe
+    \ No newline at end of file
+    +bloodborne-2-(nao-e-virus).exe
+    +.env
+    \ No newline at end of file
+    diff --git a/README.md b/README.md
+    index dc9e0e3..41cba4b 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -14,6 +14,16 @@ Implementei um codigo INSANO que printa hello world
+    Google aqui vou eu
+    Btw agr que eu notei que eu to esquecendo os git log :p
+
+    +## Dia 4
+    +
+    +Aqui eu tinha adicionado uma .env e commitei "sem querer" no repositório para fins de arranjar motivos para usar o git revert (sim, eu esqueci as exatas palavras que eu tinha escrito)
+    +
+    +## Dia 5
+    +
+    +Certamente eu não commitei a .env sem querer no repositório para fins de arranjar motivos para usar o git revert
+    +
+    +Enfim, agora a env ta no gitignore !
     ```

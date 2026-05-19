@@ -24,6 +24,12 @@ Certamente eu não commitei a .env sem querer no repositório para fins de arran
 
 Enfim, agora a env ta no gitignore !
 
+## Dia 6
+
+Eu realmente to sem ideia aqui
+
+`arquivo_legal.c` agora imprime hello world incríveis 3 vezes!
+
 ## Historico
 
 So deixando salvo aqui os git diffs e o git log
@@ -31,7 +37,8 @@ So deixando salvo aqui os git diffs e o git log
 ### git log
 
 ```
-78bbf2d (HEAD -> main) Revert "Dia 4: adicionando SECRET_KEY no .env"
+58fc344 (HEAD -> main) Dia 5: .env adicionada no gitignore
+78bbf2d Revert "Dia 4: adicionando SECRET_KEY no .env"
 6c982c9 Dia 4: adicionando SECRET_KEY no .env
 ce4609d Dia 3: Hello World em C!
 25eefac Dia 2: adicionando gitignore
@@ -148,4 +155,34 @@ ae19052 (origin/feedback) GitHub Classroom Feedback
     +Certamente eu não commitei a .env sem querer no repositório para fins de arranjar motivos para usar o git revert
     +
     +Enfim, agora a env ta no gitignore !
+    ```
+
+- Dia 6:
+    ```
+    diff --git a/README.md b/README.md
+    index bd5087b..53c028a 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -24,6 +24,12 @@ Certamente eu não commitei a .env sem querer no repositório para fins de arran
+
+    Enfim, agora a env ta no gitignore !
+
+    +## Dia 6
+    +
+    +Eu realmente to sem ideia aqui
+    +
+    +`arquivo_legal.c` agora imprime hello world incríveis 3 vezes!
+    +
+    ## Historico
+
+    So deixando salvo aqui os git diffs e o git log
+    diff --git a/arquivo_legal.c b/arquivo_legal.c
+    index e00cebb..8490cbb 100644
+    --- a/arquivo_legal.c
+    +++ b/arquivo_legal.c
+    @@ -1,6 +1,7 @@
+    #include <stdio.h>
+
+    int main() {
+    +    printf("Hello World!\n");
     ```

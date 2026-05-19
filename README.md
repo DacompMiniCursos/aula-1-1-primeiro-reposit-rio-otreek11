@@ -7,11 +7,26 @@ Este foi o primeiro dia !!
 
 Hoje eu coloquei o .gitignore !
 
+## Dia 3
+
+Implementei um codigo INSANO que printa hello world
+2 VEZES !!!
+Google aqui vou eu
+Btw agr que eu notei que eu to esquecendo os git log :p
+
 ## Historico
 
 So deixando salvo aqui os git diffs e o git log
 
 ### git log
+
+```
+25eefac (HEAD -> main) Dia 2: adicionando gitignore
+4a1c7d1 Dia 1: Criando o repositorio
+fa18c32 (origin/main, origin/HEAD) add deadline
+aea88c9 Setting up GitHub Classroom Feedback
+ae19052 (origin/feedback) GitHub Classroom Feedback
+```
 
 ### git diffs
 
@@ -54,4 +69,37 @@ So deixando salvo aqui os git diffs e o git log
     +Hoje eu coloquei o .gitignore !
 
     ## Historico
+    ```
+
+- Dia 3:
+    ```
+    diff --git a/README.md b/README.md
+    index d55f0bc..c41c3b2 100644
+    --- a/README.md
+    +++ b/README.md
+    @@ -7,12 +7,27 @@ Este foi o primeiro dia !!
+
+    Hoje eu coloquei o .gitignore !
+
+    +## Dia 3
+    +
+    +Implementei um codigo INSANO que printa hello world
+    +2 VEZES !!!
+    +Google aqui vou eu
+    +Btw agr que eu notei que eu to esquecendo os git log :p
+    +
+    ## Historico
+
+    So deixando salvo aqui os git diffs e o git log
+
+    ### git log
+
+    +```
+    +25eefac (HEAD -> main) Dia 2: adicionando gitignore
+    +4a1c7d1 Dia 1: Criando o repositorio
+    +fa18c32 (origin/main, origin/HEAD) add deadline
+    +aea88c9 Setting up GitHub Classroom Feedback
+    +ae19052 (origin/feedback) GitHub Classroom Feedback
+    +```
+    +
     ```

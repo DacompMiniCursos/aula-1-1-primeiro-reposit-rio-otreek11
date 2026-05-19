@@ -14,10 +14,6 @@ Implementei um codigo INSANO que printa hello world
 Google aqui vou eu
 Btw agr que eu notei que eu to esquecendo os git log :p
 
-## Dia 4
-
-Adicionei um .env bem bacana pra guardar minhas variaveis de ambiente
-
 ## Historico
 
 So deixando salvo aqui os git diffs e o git log
@@ -25,8 +21,7 @@ So deixando salvo aqui os git diffs e o git log
 ### git log
 
 ```
-ce4609d (HEAD -> main) Dia 3: Hello World em C!
-25eefac Dia 2: adicionando gitignore
+25eefac (HEAD -> main) Dia 2: adicionando gitignore
 4a1c7d1 Dia 1: Criando o repositorio
 fa18c32 (origin/main, origin/HEAD) add deadline
 aea88c9 Setting up GitHub Classroom Feedback
@@ -107,19 +102,4 @@ ae19052 (origin/feedback) GitHub Classroom Feedback
     +ae19052 (origin/feedback) GitHub Classroom Feedback
     +```
     +
-    ```
-
-- Dia 4:
-    ```
-    diff --git a/README.md b/README.md
-    index dc9e0e3..b1ed63f 100644
-    --- a/README.md
-    +++ b/README.md
-    @@ -14,6 +14,10 @@ Implementei um codigo INSANO que printa hello world
-    Google aqui vou eu
-    Btw agr que eu notei que eu to esquecendo os git log :p
-
-    +## Dia 4
-    +
-    +Adicionei um .env bem bacana pra guardar minhas variaveis de ambiente
     ```
